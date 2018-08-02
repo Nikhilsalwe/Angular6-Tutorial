@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularTutorial';
+  color = 'red';
+  header = 'blue';
+  public name = "This data we are sending to child component which is chil-test component";
+
+  public message = "";
 }
